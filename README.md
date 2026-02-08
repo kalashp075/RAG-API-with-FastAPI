@@ -4,51 +4,11 @@
 
 ![Image](http://learn.nextwork.org/easygoing_purple_heroic_eel/uploads/ai-devops-api_g3h4i5j6)
 
----
-
-I'm doing this project to learn the concept of RAG (Retrieval-Augmented Generation) with modern framework such as FastAPI.
-
 ### Key services and concepts
 
 Services I used were: Python, Ollama, FastAPI, Chroma, tinyllama, and Swagger UI.
 
 Key concepts I learnt include: building a RAG API, creating interactive API documentation, understanding production-ready APIs, local AI development, using a vector database for semantic search, and AI generation.
-
-### Challenges and wins
-
-This project took me approximately 3 hours. The most challenging part was understanding the end-to-end process of how the RAG API works, from query to response, and troubleshooting common errors. It was most rewarding to see the RAG API successfully generate answers using my own knowledge base and having interactive documentation with Swagger UI.
-
-### Why I did this project
-
-I did this project because I wanted to learn how to build AI-powered APIs, specifically a RAG API, and understand the end-to-end process of how it works. I also wanted to gain hands-on experience with tools like FastAPI, Chroma, Ollama, and Swagger UI.
-
----
-
-## Setting Up Python and Ollama
-
-In this step, I'm setting up Python and Ollama. Python is the programming language... Ollama is AI model for running locally on my machine... I need these tools because RAG API will need both tools to be running.
-
-### Python and Ollama setup
-
-![Image](http://learn.nextwork.org/easygoing_purple_heroic_eel/uploads/ai-devops-api_i9j0k1l2)
-
-### Verifying Python is working
-
-### Ollama and tinyllama ready
-
-Ollama is a tool that lets us run large language models locally on your own computer. Instead of sending requests to cloud services like OpenAI or Anthropic, Ollama runs the AI model directly on our machine.... I downloaded the tinyllama model because... The model will help my RAG API because it contains everything the AI needs to understand and generate text. When I run Ollama commands, it uses this model to answer your questions.
-
----
-
-## Setting Up a Python Workspace
-
-In this step, I'm setting up a workspace... I need it to keep everything organized in one place makes it easier to manage my project and find files when I need them.
-
-### Python workspace setup
-
-### Virtual environment
-
-A virtual environment is an isolated Python environment that keeps my project's dependencies separate from other Python projects on my computer.... I created one for this project to  keeps my project's tools and packages separate, so nothing I do here will break other Python programs on my computer. Once I activate it (venv) prefix in my prompt is a visual reminder that you're I am now using the virtual environment's Python and packages. To create a virtual environment, I executed the command python3 -m venv venv
 
 ### Dependencies
 
